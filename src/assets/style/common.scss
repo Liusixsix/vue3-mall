@@ -1,0 +1,20 @@
+
+
+.w1200{
+    width: 1200px;
+    // max-width: 1720px;
+    // width: 90%;
+    margin: 0 auto;
+}
+
+.prefix{
+    &::before{
+        content: "";
+        display: inline-block;
+        width: 2px;
+        height: 20px;
+        background: #BC2A34;
+        border-radius: 2px;
+        margin-right: 10px;
+    }
+}
